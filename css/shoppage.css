@@ -1,0 +1,300 @@
+@import url(base.css);
+/* head start */
+
+header{
+	width: 7.5rem;
+	height: 2.64rem;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	z-index: 99;
+}
+li{
+	list-style: none;
+}
+.bg{
+	width: 7.5rem;
+	height: 1.79rem;
+	background-image:-webkit-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-moz-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-ms-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-o-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:linear-gradient(-45deg,#f29c9f,#fa4d97); 
+}
+.headicon
+{
+	width: 7.02rem;
+	height: 0.88rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.bg .headicon i{
+	font-size:0.4rem; 
+	color: #fff;
+}
+
+header img{
+	width: 1.69rem;
+	height: 1.69rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	box-shadow:0px 5px 13px 2px rgba(0,0,0,0.2);
+}
+/* head end */
+/* 店铺说明开始 */
+.shopword{
+	width: 7.02rem;
+	height: 2.47rem;
+	background: #fff;
+	padding: 0.4rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: fixed;
+	top: 2.64rem;
+	left: 0.24rem;
+}
+.hangyi,.hangyii{
+	width: 7.02rem;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.shopword .hangyi img{
+	width: 0.36rem;
+	height: 0.18rem;
+}
+.shopword h2{
+	font-size: 0.34rem;
+}
+.hangyii{
+	width: 5.05rem;
+	height: 0.22rem;
+	justify-content: space-between;
+}
+.hangyii img{
+	width: 1.36rem;
+	height: 0.22rem;
+}
+.hangyii h2{
+	font-size: 0.18rem;
+}
+.shopword h4{
+	font-size: 0.18rem;
+	color: #c1c1c1;
+	text-align: center;
+}
+.hangyiii{
+	width: 6.12rem;
+	height: 0.3rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.hangyiii .left{
+	width: 3rem;
+	height: 0.22rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hangyiii .left img{
+	width: 0.36rem;
+	height: 0.18rem;
+
+}
+.hangyiii .left h3{
+	font-size: 0.22rem;
+	float: right;
+}
+.hangyiii .right{
+	width: 2rem;
+	height: 0.22rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hangyiii .right h3{
+	font-size: 0.18rem;
+	color: #ccc;
+}
+i.icon-xiala{
+	color: #ccc;
+	font-size: 0.2rem;
+}
+/* 店铺说明结束 */
+/* 选项卡开始 */
+.choose{
+	width: 7.02rem;
+	height: 0.89rem;
+	background: #fff;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #c1c1c1;
+	position: fixed;
+	top: 5.5rem;
+	left: 0.24rem;
+
+}
+li{
+	width: 1.52rem;
+	height: 0.89rem;
+}
+.choose li a {
+	display: block;
+	font-size: 0.3rem;
+    color: #333;
+    line-height: 0.89rem;
+    text-align: center;
+}
+/* 选项卡结束 */
+/* 侧边开始 */
+aside{
+	width: 1.69rem;
+	height: auto;
+	position: fixed;
+	top: 6.5rem;
+	margin-right: 2.78rem;
+}
+aside li{
+	width: 1.69rem;
+	height: 0.63rem;
+	padding-left: 0.24rem;
+	list-style: none;
+	background: #ccc;
+}
+aside li:nth-child(1){
+	background: #fff;
+}
+aside li a{
+	display: block;
+	font-size: 0.18rem;
+	color: #333;
+	line-height: 0.63rem;
+	text-align: center;
+}
+/* 侧边结束 */
+/* 商品列表开始 */
+.food{
+	width: 5rem;
+	height: 16rem;
+	float: right;
+	padding: 6.5rem 0.24rem 0 0;
+	box-sizing: border-box;
+
+}
+.biaot{
+	width: 100%;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+	border-bottom: 1px solid #c1c1c1 ;
+}
+.food li{
+	width: 100%;
+	height: 2rem;
+	margin-bottom: 0.4rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.food li .left{
+	width: 1.39rem;
+
+}
+
+.food li .left a{
+	display: block;
+	width: 1.39rem;
+	height: 1.39rem;
+	border-radius: 0.2rem;
+}
+.food li a img{
+	width: 1.39rem;
+	height: 1.39rem;
+	border-radius: 0.2rem;
+}
+.food li .right{
+	width: 3.83rem;
+	height: 100%;
+	padding: 0.2rem 0 0 0.1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.food li .right .title{
+	font-size: 0.24rem;
+    font-weight: bold;
+}
+.food li .right h4{
+	font-size: 0.18rem;
+	color: #333;
+}
+.food li .right h4:last-child{
+	font-size: 0.2rem;
+	color: red;
+}
+/* 商品列表结束 */
+/* tap开始 */
+footer{
+	width: 100%;
+	height: 1.1rem;
+	background: #5c5c5c;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.icondown{
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	background: #453939;
+	position: absolute;
+	left: 0.33rem;
+	bottom: 0.59rem;
+}
+i.icon-gouwuche{
+	display: block;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.34rem;
+	color: pink;
+}
+.jiesuan{
+	width: 1.63rem;
+	height: 0.55rem;
+	border-radius: 0.5rem;
+	border: 2px solid #df7373;
+	background: #453939;
+	position: absolute;
+	right: 0.59rem;
+	bottom: 0.32rem;
+	text-align: center;
+	line-height: 0;
+
+}
+.jiesuan span{
+	font-size: 0.18rem;
+	color: #df7373;
+}
+.txt{
+	position: absolute;
+	left: 1.28rem;
+	top: 0;
+}
+.txt h3{
+	margin-top: 0.2rem;
+	font-size: 0.22rem;
+	color: #fff;
+}
+/* tap结束 */

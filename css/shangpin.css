@@ -1,0 +1,230 @@
+@import url(base.css);
+/*  */
+header{
+	width: 7.5rem;
+	height: 5.61rem;
+	position: relative;
+}
+.daoh{
+	width: 100%;
+	height: 2.52rem;
+	background-image:-webkit-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-moz-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-ms-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-o-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:linear-gradient(-45deg,#f29c9f,#fa4d97); 
+
+}
+i.icon-fanhui,i.icon-gengduo-2{
+	display: block;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.34rem;
+	color: #fff;
+	float: left;
+	padding:0 0.24rem;
+}
+i.icon-gengduo-2{
+	float: right;
+}
+header img{
+	width: 3.81rem;
+	height: 3.81rem;
+	margin: 0 auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0.88rem;
+}
+/*  */
+/*  */
+.lieb{
+	width: 7.02rem;
+	height: 1.63rem;
+	padding: 0 0.24rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.lieb li:first-child{
+	font-size: 0.3rem;
+	font-weight: bold;
+}
+.lieb li:nth-child(2){
+	font-size: 0.18rem;
+	font-weight: normal;
+}
+.lieb li:nth-child(3) :first-child{
+	font-size: 0.22rem;
+	color: red;
+	float: left;
+}
+.lieb li:nth-child(3) :last-child{
+	font-size: 0.18rem;
+	color: #ccc;
+	text-decoration: line-through;
+	float: left;
+}
+.lieb li:nth-child(4){
+	font-size: 0.22rem;
+	color: #333;
+}
+/*  */
+/*  */
+.title1{
+	width: 100%;
+	height: 0.87rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title1 span:first-child{
+	display: block;
+	font-size: 0.34rem;
+	color: #333;
+	font-weight: bold;
+}
+.title1 span:first-child{
+	display: block;
+}
+.title1 span a:last-child{
+	display: block;
+	font-size: 0.2rem;
+	color: #333;
+}
+.pinja{
+	width: 7.02rem;
+	height: 2.25rem;
+	margin: 0 auto;
+}
+.pinja li{
+	width: 100%;
+	height: 1.03rem;
+	margin-bottom: 0.2rem;
+	box-shadow: 0 0.04rem 0.01rem 0.02rem #ccc;
+	display: flex;
+
+}
+.pinja li img{
+	width: 0.88rem;
+	height: 0.88rem;
+	margin-left: 0.2rem;
+}
+.pinja li .neirong h3{
+	font-size: 0.22rem;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 0.2rem;
+}
+/*  */
+/*  */
+.title2{
+	width: 7.02rem;
+	height: 1.48rem;
+	margin: 0 auto;
+	font-size: 0.28rem;
+	font-weight: bold;
+	line-height: 1.48rem;
+}
+.xiasp{
+	width: 7.02rem;
+	height: 4.61rem;
+	margin: 0 0.24rem 1.5rem;
+}
+.xiasp li{
+	width: 3.38rem;
+	height: 100%;
+	background: #fff;
+	float: left;
+	margin-right: 0.2rem;
+	box-shadow: 0 0.04rem 0.02rem 0.04rem #ccc;
+}
+.xiasp li:last-child{
+	margin-right: 0;
+}
+.xiasp li img{
+	width: 2.74rem;
+	height: 2.75rem;
+	border-radius: 0.2rem;
+	margin: 0 0 0.53rem 0.42rem;
+}
+.xiasp li h4{
+	margin-left: 0.42rem;
+	margin-bottom: 0.18rem;
+}
+.xiasp li h4:nth-child(2){
+	font-size: 0.24rem;
+	font-weight: bold;
+	color: #000;
+}
+.xiasp li h4:nth-child(3){
+	font-size: 0.18rem;
+	font-weight: normal;
+	color: #333;
+}
+.xiasp li h4:nth-child(4){
+	font-size: 0.24rem;
+	font-weight: normal;
+	color: red;
+}
+/* tap start */
+.tap{
+	width: 7.5rem;
+	height: 0.98rem;
+	background-image:-webkit-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-moz-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-ms-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:-o-linear-gradient(-45deg,#f29c9f,#fa4d97);
+    background-image:linear-gradient(-45deg,#f29c9f,#fa4d97); 
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+.icondown{
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 50%;
+	background: #f29c9f;
+	position: absolute;
+	left: 0.33rem;
+	bottom: 0.59rem;
+}
+i.icon-gouwuche{
+	display: block;
+	text-align: center;
+	line-height: 0.7rem;
+	font-size: 0.34rem;
+	color: #fff;
+}
+.jiesuan{
+	width: 1.63rem;
+	height: 0.55rem;
+	border-radius: 0.5rem;
+	border: 2px solid #df7373;
+	background: #453939;
+	position: absolute;
+	right: 0.59rem;
+	bottom: 0.32rem;
+	text-align: center;
+	line-height: 0;
+
+}
+.jiesuan span{
+	display: block;
+	font-size: 0.18rem;
+	color: #fff;
+	line-height: 0.55rem;
+}
+.txt{
+	position: absolute;
+	left: 1.28rem;
+	top: 0;
+}
+.txt h3{
+	margin-top: 0.1rem;
+	font-size: 0.22rem;
+	color: #fff;
+}
